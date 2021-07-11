@@ -10,3 +10,18 @@ Consigli del giorno:
 2. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 Buon lavoro e buon divertimento!
 */
+
+
+for (var i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(i + "FizzBuzz");
+    } else if (i % 3 == 0) {
+        console.log(i + "Fizz")
+    } else if (i % 5 == 0) {
+        console.log(i + "buzz")
+    } else {
+        console.log(i)
+    }
+}
+
+
